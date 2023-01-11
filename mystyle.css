@@ -1,0 +1,28 @@
+.* {
+	margin: 0px;
+	padding: 0px;
+}
+}
+.mt-1 {
+	background-color: lightgrey;
+	margin: 0px ;
+	padding: 0px ;
+}
+
+
+
+.mt-menu {
+	text-align: center;
+}
+.mt-menu a{
+	text-decoration: none;
+	color: black;
+}
+.mt-menu :hover
+{color: blue}
+
+.mt-2 {
+	background-color: lightgrey;
+	margin: 0px;
+	padding: 0px;
+}
