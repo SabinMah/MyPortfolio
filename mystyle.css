@@ -1,13 +1,36 @@
+ @import 
+ url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
 
-.mt-1 {
+ body {
+ 	font-family: 'Nunito Sans', sans-serif;
+ 	font-size: 13px;
+    font-weight: 500;
+
+ }
+
+.col-menu-body {
 	
 	margin: 0px ;
 	padding: 0px ;
 }
+.image-about img{
+	width: 150px;
+	height: 150px;
+}
+
+.mt-menu h6 {
+    padding-top: 26px;
+    font-size: 18px;
+}
 
 
-.mt-body{
-	background-color: lightgrey;
+.mt-menu
+{
+	background-color: #d3d3d34f;
+	height: 100vh;
+	width: 317px;
+	overflow-y: scroll;
+
 }
 
 .mt-menu {
@@ -16,16 +39,21 @@
 .mt-menu a{
 	text-decoration: none;
 	color: black;
-	line-height: 38px
+	line-height: 29px
+
+}
+li {
+	list-style-type: none;
 }
 .mt-menu :hover
-{color: blue}
-
+{color: blue
+}
 .bgimg1
 {
 	position: relative;
 	
 	display: flex;
+	padding: 0px;
 
 	
 }
@@ -38,7 +66,8 @@
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background-size: contain;
+    background-size: auto;
+    margin-left: 32px;
 }
 
 .bgimg1 span {
@@ -48,10 +77,15 @@
 
 }
 h1, h2, h3, h4, h5, h6 {
+	
+	font-weight: bold;
   color: #000;
-  font-family: "Playfair Display", Georgia, serif;
-  font-weight: 550;
-  margin: 0 0 10px 0; }
+  font-family: 'Playfair Display', serif;
+  }
+
   button{
   	border: 1px solid;
   }
+.bgimg1 h1 {
+	font-size: 60px;
+}
