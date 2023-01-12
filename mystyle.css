@@ -1,8 +1,7 @@
- @import 
- url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&display=swap');
+
 
  body {
- 	font-family: 'Nunito Sans', sans-serif;
+ 	font-family: 'Quicksand', sans-serif;
  	font-size: 13px;
     font-weight: 500;
 
@@ -21,6 +20,9 @@
 .mt-menu h6 {
     padding-top: 26px;
     font-size: 18px;
+}
+.mt-menu ul {
+	padding: 0px;
 }
 
 
@@ -47,6 +49,10 @@ li {
 }
 .mt-menu :hover
 {color: blue
+}
+
+.mt-menu li :hover{
+	text-decoration: underline;
 }
 .bgimg1
 {
