@@ -55,8 +55,10 @@ li {
 	display: flex;
 	padding: 0px;
 
-	
 }
+
+
+
 
 .bgimg1::before{
     content: "";
@@ -76,8 +78,9 @@ li {
 	position: relative;
 	margin-top: 120px;
     padding-left: 80px;
-
+	
 }
+
 h1, h2, h3, h4, h5, h6 {
 	
 	font-weight: bold;
@@ -91,3 +94,5 @@ h1, h2, h3, h4, h5, h6 {
 .bgimg1 h1 {
 	font-size: 60px;
 }
+
+
