@@ -48,6 +48,9 @@ li {
 .mt-menu :hover
 {color: blue
 }
+.mt-menu ul :hover{
+	text-decoration: underline;
+}
 .bgimg1
 {
 	position: relative;
@@ -76,8 +79,7 @@ li {
 }
 .bgimg1 span {
 	position: relative;
-	margin-top: 120px;
-    padding-left: 80px;
+	padding-top: 3rem;
 	
 }
 
@@ -93,6 +95,14 @@ h1, h2, h3, h4, h5, h6 {
   }
 .bgimg1 h1 {
 	font-size: 60px;
+}
+.body-2 span {
+	padding-top: 30rem;
+	font-size: 15px
+}
+
+.body-2 h2 {
+    padding: 0px 0px 70px 0px;
 }
 
 
