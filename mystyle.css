@@ -69,7 +69,9 @@ li {
     background-size: auto;
     margin-left: 32px;
 }
-
+.row.body-1 {
+    padding: 128px;
+}
 .bgimg1 span {
 	position: relative;
 	margin-top: 120px;
