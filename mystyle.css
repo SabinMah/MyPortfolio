@@ -8,6 +8,8 @@
 
  }
 
+
+
 .col-menu-body {
 	
 	margin: 0px ;
@@ -26,6 +28,7 @@
 
 .mt-menu
 {
+	position: fixed;
 	background-color: #d3d3d34f;
 	height: 100vh;
 	width: 329px;
