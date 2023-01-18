@@ -130,21 +130,28 @@ span.border.icon-box {
     font-size: 14px;
 }
 .hire {
-    background: orange;
-    height: 139px;
+       background: #f9bf3f;
+    height: 199px;
     width: 620px;
-    font-family: font-family: 'Playfair Display', serif;
+    padding: 20px 0px 0px 23px;
+    margin: 54px 2px 0px 3px;
 }
 
 
 .hire p {
     font-family: 'Playfair Display';
+    font-size: 31px;
+    font-weight: 100;
 }
 
 
 .hire button {
+	background-color: #f9bf3f;
     width: 91px;
     height: 29px;
+    margin: 16px;
+    font-size: 16px;
+    font-weight: 600;
 }
 
 
