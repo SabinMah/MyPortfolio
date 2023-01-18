@@ -107,5 +107,28 @@ h1, h2, h3, h4, h5, h6 {
 .body-2 h2 {
     padding: 0px 0px 70px 0px;
 }
+.icon-box {
+	display: inline-block;
+    height: 121px;
+    width: 144px;
+    margin: 10px;
+    color: #2d57cbbf;
+}
 
+i.fa-regular.fa-lightbulb {
+    font-weight: 100;
+    font-size: 26px;
+    height: 43px;
+}
+
+span.border.icon-box {
+    padding: 23px 0px 0px 11px;
+}
+.icon-box p {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+.hire {
+    background: orange;
 
