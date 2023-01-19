@@ -77,9 +77,14 @@ li {
     background-size: auto;
     margin-left: 32px;
 }
+
 .row.body-1 {
-    padding: 128px;
+    padding: 0px;
 }
+span.name {
+    padding: 204px;
+}
+
 .bgimg1 span {
 	position: relative;
 	padding-top: 3rem;
@@ -126,7 +131,7 @@ i.fa-regular.fa-lightbulb {
     box-shadow: 0px 5px 41px 0px rgb(179 163 163 / 75%); 
     -webkit-box-shadow: 0px 5px 41px 0px rgb(179 163 163 / 75%);
     -moz-box-shadow: 0px 5px 41px 0px rgb(179 163 163 / 75%);
-    border-bottom: 10px solid #5165c5!important;
+    border-bottom: 3px solid #5165c5!important;
 }
 
 
@@ -158,6 +163,10 @@ i.fa-regular.fa-lightbulb {
     margin: 16px;
     font-size: 16px;
     font-weight: 600;
+}
+
+.col-sm-12.about-us {
+    padding-left: 103px;
 }
 
 
