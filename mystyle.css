@@ -144,9 +144,13 @@ i.fa-regular.fa-lightbulb {
 .hire {
        background: #f9bf3f;
     height: 199px;
-    width: 620px;
+    width: 98%;
     padding: 20px 0px 0px 23px;
     margin: 54px 2px 0px 3px;
+}
+
+.row.about-icon {
+    width: 100%;
 }
 
 
@@ -227,7 +231,8 @@ i.fa-regular.fa-lightbulb {
 }
 
 .body-service {
-    margin: 250px 0px 10px 100px;
+        margin: 254px 0px 10px 45px;
+    padding-left: 85px;
 }
 
 .body-service .icon-box {
