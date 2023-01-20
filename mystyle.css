@@ -169,6 +169,74 @@ i.fa-regular.fa-lightbulb {
     padding-left: 103px;
 }
 
+.hexagon {
+    cursor: default;
+    position: relative;
+    width: 121px; 
+    height: 69.85938257194472px;
+    background-color: #4b80fb;
+    margin: 34.92969128597236px auto 0 auto;
+    box-shadow: 0 0 0px rgba(0,255,255,0.00632809);
+    border-left: solid 0px #f47721;
+    border-right: solid 0px #f47721;
+    display: grid;
+    transition: 0s;
+}
 
+.hexagon:before, .hexagon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 85.55992052357225px;
+    height: 85.55992052357225px;
+    transform: scaleY(0.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 17.720039738213877px;
+    box-shadow: 0 0 0px rgba(0,255,255,0.00632809);
+    transition: 0s;
+}
+
+.hexagon:before {
+    top: -42.77996026178612px;
+    border-top: solid 0px #f47721;
+    border-right: solid 0px #f47721;
+}
+
+.hexagon:after {
+    bottom: -42.77996026178612px;
+    border-bottom: solid 0px #f47721;
+    border-left: solid 0px #f47721;
+}
+
+.hexagon span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    font-size: 25px;
+    color: #f47721;
+    top: 0px;
+    left: 0;
+    width: 121px;
+    height: 69.8594px;
+    z-index: 2;
+    background: inherit;
+    transition: 0s;
+}
+.hexagon {
+    margin: -53px 0px 0px 60px;
+}
+
+.body-service {
+    margin: 250px 0px 10px 100px;
+}
+.body-service .icon-box {
+    display: inline-block;
+    height: 229px;
+    width: 100%;
+    margin: 10px;
+    color: #2d57cbbf;
+}
+    
 
 
