@@ -236,13 +236,17 @@ i.fa-regular.fa-lightbulb {
 }
 
 .body-service .icon-box {
-    height: 240px;
+    height: 284px;
     width: 100%;
     margin-top: 82px;
 }
 
 .hexagon {
     margin-top: -43px;
+}
+
+.desc {
+	
 }
 
     
