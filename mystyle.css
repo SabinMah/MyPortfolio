@@ -246,10 +246,9 @@ i.fa-regular.fa-lightbulb {
 }
 
 .desc {
-    text-align: center;
-    margin-top: 69px;
+    text-align: center!important;
+    margin-top: 69px!important;
 }
 
-    
 
 
