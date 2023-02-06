@@ -254,3 +254,14 @@ i.fa-regular.fa-lightbulb {
     padding: 31px 13px 0px 13px;
 }
 
+.viewcover {
+	background: url(images/cover_bg_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 209px;
+	width: 100%;
+	padding-top: 131px;
+    text-align: center;
+    margin: 197px 0px 1px 50px;
+}
+
